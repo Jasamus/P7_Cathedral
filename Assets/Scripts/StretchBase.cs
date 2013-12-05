@@ -13,7 +13,8 @@ public class StretchBase : MonoBehaviour {
 	
 	public float maxStretchSpeed = 0.8f;
 
-	private Transform staticStretch;
+	private Transform fullTranslate;
+	private Transform[] scaledTranslate;
 	private Transform xStretch;
 	private Transform yStretch;
 	private Transform zStretch;
@@ -25,12 +26,20 @@ public class StretchBase : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		staticStretch = transform.Find("NoScale");
+		fullTranslate = transform.Find("FullTranslate");
 		xStretch = transform.Find("XScale");
 		yStretch = transform.Find("YScale");
 		zStretch = transform.Find("ZScale");
 
-		if(staticStretch.localPosition != Vector3.zero)
+		Transform st = transform.Find("ScaledTranslate");
+		if(st != null){
+			scaledTranslate = new Transform[st.childCount];
+			for(int i = 0; i < st.childCount; i++){
+				scaledTranslate[i] = st.GetChild(i);
+			}
+		}
+
+		if(fullTranslate.localPosition != Vector3.zero)
 			Debug.LogWarning("No Scale failed to start at position 0,0,0");
 		if(xStretch.localPosition != Vector3.zero)
 			Debug.LogWarning("X Scale failed to start at position 0,0,0");
@@ -70,9 +79,15 @@ public class StretchBase : MonoBehaviour {
 			}else
 				currentStretchPercent = targetStretchPercent;
 		}
+		if(fullTranslate != null)
+			fullTranslate.transform.localPosition = stretchDir * stretchDist * currentStretchPercent;
 
-		staticStretch.transform.localPosition = stretchDir * stretchDist * currentStretchPercent;
-		
+		if(scaledTranslate != null){
+			for(int i = 0; i < scaledTranslate.Length; i++){
+				scaledTranslate[i].localPosition = (scaledTranslate[i].localPosition - Vector3.Project(scaledTranslate[i].localPosition,stretchDir)) + (Vector3.Project(scaledTranslate[i].localPosition,stretchDir) / ((stretchDist * prevStretchPercent) + 1.0f)) * ((stretchDist * currentStretchPercent) + 1.0f);
+			}
+		}
+
 		if(xStretch != null){
 			xStretch.transform.localScale = new Vector3((stretchDir.x * stretchDist * currentStretchPercent) + 1.0f,1.0f,1.0f);
 			

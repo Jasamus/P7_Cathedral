@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: b2eb1843c7b3a1d48adcba6166371cff
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bottom_Baseboard
+    100002: Central_WallColumn
+    100004: Large_WindowArch
+    100006: SecondFloor_Baseboard
+    100008: Side_WallColumn
+    100010: Side_WallColumn2
+    100012: Small_WindowArch
+    100014: Small_WindowArch2
+    100016: Wall
+    100018: //RootNode
+    100020: pPlane1
+    100022: pPlane2
+    100024: pPlane3
+    400000: Bottom_Baseboard
+    400002: Central_WallColumn
+    400004: Large_WindowArch
+    400006: SecondFloor_Baseboard
+    400008: Side_WallColumn
+    400010: Side_WallColumn2
+    400012: Small_WindowArch
+    400014: Small_WindowArch2
+    400016: Wall
+    400018: //RootNode
+    400020: pPlane1
+    400022: pPlane2
+    400024: pPlane3
+    2300000: Bottom_Baseboard
+    2300002: Central_WallColumn
+    2300004: Large_WindowArch
+    2300006: SecondFloor_Baseboard
+    2300008: Side_WallColumn
+    2300010: Side_WallColumn2
+    2300012: Small_WindowArch
+    2300014: Small_WindowArch2
+    2300016: Wall
+    2300018: pPlane1
+    2300020: pPlane2
+    2300022: pPlane3
+    3300000: Bottom_Baseboard
+    3300002: Central_WallColumn
+    3300004: Large_WindowArch
+    3300006: SecondFloor_Baseboard
+    3300008: Side_WallColumn
+    3300010: Side_WallColumn2
+    3300012: Small_WindowArch
+    3300014: Small_WindowArch2
+    3300016: Wall
+    3300018: pPlane1
+    3300020: pPlane2
+    3300022: pPlane3
+    4300000: Wall
+    4300002: Large_WindowArch
+    4300004: Small_WindowArch
+    4300006: Small_WindowArch2
+    4300008: Central_WallColumn
+    4300010: Side_WallColumn
+    4300012: Side_WallColumn2
+    4300014: Bottom_Baseboard
+    4300016: SecondFloor_Baseboard
+    4300018: pPlane1
+    4300020: pPlane2
+    4300022: pPlane3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

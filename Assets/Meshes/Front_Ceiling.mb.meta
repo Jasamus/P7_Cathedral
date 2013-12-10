@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 4c056a4736c210443aa647c85c70e9da
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Ceiling_Front
+    100002: Ceiling_Front_Beam_Left_Back
+    100004: Ceiling_Front_Beam_Left_Center
+    100006: Ceiling_Front_Beam_Left_Front
+    100008: Ceiling_Front_Beam_Right_Back
+    100010: Ceiling_Front_Beam_Right_Center
+    100012: Ceiling_Front_Beam_Right_Front
+    100014: Ceiling_Front_Beam_Top_Back
+    100016: Ceiling_Front_Beam_Top_Center
+    100018: Ceiling_Front_Beam_Top_Front
+    100020: //RootNode
+    400000: Ceiling_Front
+    400002: Ceiling_Front_Beam_Left_Back
+    400004: Ceiling_Front_Beam_Left_Center
+    400006: Ceiling_Front_Beam_Left_Front
+    400008: Ceiling_Front_Beam_Right_Back
+    400010: Ceiling_Front_Beam_Right_Center
+    400012: Ceiling_Front_Beam_Right_Front
+    400014: Ceiling_Front_Beam_Top_Back
+    400016: Ceiling_Front_Beam_Top_Center
+    400018: Ceiling_Front_Beam_Top_Front
+    400020: //RootNode
+    2300000: Ceiling_Front
+    2300002: Ceiling_Front_Beam_Left_Back
+    2300004: Ceiling_Front_Beam_Left_Center
+    2300006: Ceiling_Front_Beam_Left_Front
+    2300008: Ceiling_Front_Beam_Right_Back
+    2300010: Ceiling_Front_Beam_Right_Center
+    2300012: Ceiling_Front_Beam_Right_Front
+    2300014: Ceiling_Front_Beam_Top_Back
+    2300016: Ceiling_Front_Beam_Top_Center
+    2300018: Ceiling_Front_Beam_Top_Front
+    3300000: Ceiling_Front
+    3300002: Ceiling_Front_Beam_Left_Back
+    3300004: Ceiling_Front_Beam_Left_Center
+    3300006: Ceiling_Front_Beam_Left_Front
+    3300008: Ceiling_Front_Beam_Right_Back
+    3300010: Ceiling_Front_Beam_Right_Center
+    3300012: Ceiling_Front_Beam_Right_Front
+    3300014: Ceiling_Front_Beam_Top_Back
+    3300016: Ceiling_Front_Beam_Top_Center
+    3300018: Ceiling_Front_Beam_Top_Front
+    4300000: Ceiling_Front
+    4300002: Ceiling_Front_Beam_Top_Center
+    4300004: Ceiling_Front_Beam_Top_Front
+    4300006: Ceiling_Front_Beam_Top_Back
+    4300008: Ceiling_Front_Beam_Left_Back
+    4300010: Ceiling_Front_Beam_Left_Center
+    4300012: Ceiling_Front_Beam_Left_Front
+    4300014: Ceiling_Front_Beam_Right_Back
+    4300016: Ceiling_Front_Beam_Right_Center
+    4300018: Ceiling_Front_Beam_Right_Front
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
